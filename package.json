@@ -1,0 +1,20 @@
+{
+  "name": "horsepower",
+  "version": "1.0.0",
+  "description": "Api REST HorsePower",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    , "start": "nodemon index.js"
+  },
+  "author": "Claudio Ulloa",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
